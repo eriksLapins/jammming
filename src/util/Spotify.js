@@ -1,4 +1,5 @@
-const clientId = '82f6330913df4fd99ade1b6b7a42ca4d'; // usually should not put it here in the open like that
+import clientIdSpotify from './IDs'
+const clientId = clientIdSpotify; // usually should not put it here in the open like that
 const redirectUri = 'http://eriks-jamming.surge.sh/'
 //const redirectUri = 'http://localhost:3000/';
 let accessToken;
